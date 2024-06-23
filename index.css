@@ -1,0 +1,144 @@
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(240, 238, 252);
+    font-size: large;
+    padding: 0px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(214, 169, 255);
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(39, 0, 83);
+}
+
+.navbar-nav {
+    margin-left: 15px;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.main_info {
+    background-color: rgba(235, 219, 252, 0.507);
+    font-size: large;
+}
+
+.main_info p,
+.main_info h2 {
+    margin-left: 10px;
+}
+
+.contacts {
+    background-color: rgba(235, 219, 252, 0.507);
+
+}
+
+.contacts a {
+    color: rgb(0, 0, 0);
+}
+
+.contacts ul {
+    margin-bottom: 0px;
+}
+
+.contacts .right-part li {
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.contacts .right-part {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.contacts .left-part li {
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.contacts h3 {
+    margin-left: 15px;
+}
+
+.img-fluid {
+    max-height: 280px;
+    margin: 10px auto 5px;
+    display: block;
+}
+
+.my-rounded {
+    border-radius: 20px;
+}
+
+.container-fluid {
+    padding: 0 15px;
+}
+
+.block-info {
+    background-color: rgba(235, 219, 252, 0.507);
+}
+
+.navbar {
+    background-color: rgba(66, 6, 122, 0.747);
+}
+
+#professoinal-skills {
+    margin-bottom: 20px;
+}
+
+.content {
+    margin: 0 15px;
+}
+
+.card-header {
+    background-color: rgb(214, 170, 255);
+}
+
+.wisdom {
+    background-color: rgb(237, 219, 255);
+}
+
+#liveAlertBtn {
+    background-color: rgb(50, 4, 102);
+    border: 3px solid rgb(89, 7, 182);
+    color: aliceblue;
+    font-weight: lighter;
+    border-radius: 20px;
+}
+
+#liveAlertBtn:hover {
+    background-color: rgb(77, 3, 161);
+}
+
+.alert {
+    background-color: rgb(187, 186, 255);
+    border: 1px solid rgb(89, 7, 182);
+    color: black;
+}
+
+#myCarousel {
+    max-width: 2048px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.rotate-text {
+    position: absolute;
+    transform: rotate(-90deg) translateX(145%) translateY(555%);
+    transform-origin: right;
+}
+
+@media (max-width: 576px) {
+    .navbar-nav .nav-link {
+        margin-top: 10px;
+    }
+}
